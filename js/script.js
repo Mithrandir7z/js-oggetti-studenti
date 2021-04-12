@@ -20,16 +20,9 @@ var studente = {
 console.log("Ex 1");
 
 for ( var key in studente ) {
-    if ( key == 'nome' ) {
-        console.log( "chiave:", key );
-        console.log( "valore:", studente[key] );
-    } else if ( key == 'cognome' ) {
-        console.log( 'chiave', key );
-        console.log( "valore:", studente[key] );
-    } else if ( key == 'eta' ) {
-        console.log( "chiave:", key );
-        console.log( "valore:", studente[key] );
-    }
+
+    console.log( key, studente[key] );
+   
 }
 
 
